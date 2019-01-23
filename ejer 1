@@ -1,0 +1,27 @@
+using System;
+//ponerlo para poder usar LISTAS
+using System.Collections.Generic;
+
+
+
+public class Program
+{
+	public static void Main()
+	{
+		//creamos la lista
+		List<int> numerosFavoritos = new List<int>();
+		//añadimos 4 elementos
+		numerosFavoritos.Add(131);
+		numerosFavoritos.Add(71);
+		numerosFavoritos.Add(93);
+		numerosFavoritos.Add(59);
+
+
+	//para recorrer la lista
+		for (int i = 0; i < numerosFavoritos.Count; i++)
+			 {
+				 Console.WriteLine("Mi " + (i+1) + "º número favorito es: " + numerosFavoritos[i]);
+			 }
+	}
+	
+}
